@@ -1,16 +1,27 @@
-# quiz
+# Flutter Quiz App
 
-A new Flutter project.
+This is a simple and interactive quiz application built with Flutter. It demonstrates core Flutter concepts such as state management, custom widgets, and UI design.
 
-## Getting Started
+## Features
+- Multiple-choice questions about Flutter
+- Tracks user answers and displays results
+- Custom answer buttons and result summary
+- Uses Google Fonts for modern typography
 
-This project is a starting point for a Flutter application.
+## Project Structure
+- `lib/` - Main source code
+  - `main.dart` - Entry point
+  - `quiz.dart` - Main quiz logic and navigation
+  - `start_screen.dart` - Welcome screen
+  - `questions_screen.dart` - Quiz questions UI
+  - `answer_button.dart` - Custom answer button widget
+  - `result_Screen.dart` - Result and summary screen
+  - `data/questions.dart` - List of quiz questions
+  - `models/quiz_questions.dart` - Question model
 
-A few resources to get you started if this is your first Flutter project:
+## Customization
+- Add or edit questions in `lib/data/questions.dart`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Dependencies
+- [Flutter](https://flutter.dev)
+- [google_fonts](https://pub.dev/packages/google_fonts)
